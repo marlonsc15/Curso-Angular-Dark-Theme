@@ -7,13 +7,14 @@
     outline: 0;
     list-style: none;
     font-family: 'Roboto', sans-serif;
+
     button {
         background: none;
         cursor: pointer;
     }
 }
 
-:root { 
+:root {
     --primary: #1976d2;
     --body: #fff;
     --text-menu: #fff;
@@ -29,4 +30,25 @@
 
 body {
     background-color: var(--body);
+}
+
+.container {  
+    width: 510px;
+    margin: 0 auto;
+
+    h1 {
+        font-weight: 700;
+        font-size: 25px;
+        margin: 50px 0 10px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    h1,
+    p {
+        color: var(--text-body);
+    }
 }
